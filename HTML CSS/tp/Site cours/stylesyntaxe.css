@@ -1,0 +1,73 @@
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(243, 237, 237);
+
+}
+h1 { text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    border:1px solid #c2d7eb;
+    background-color: rgb(147, 204, 209);
+    padding:20px;
+    text-align:center;
+    box-shadow: 0 5px 10px rgba(11, 12, 12, 0.5);
+    background-image: url(https://www.css-engineering.com/wp-content/uploads/2016/01/code-wallpaper-8238-8558-hd-wallpapers.jpg);
+    background-size: 100%;
+    animation: animate 7s linear infinite; 
+
+    
+}
+
+h3 {
+    
+    font-style: italic;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-style: groove;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+   
+}
+
+img {
+    position: relative;
+    left: 100px;
+    
+}
+
+.exemple {
+    position: relative;
+    left: 400px;
+    zoom: 50%;
+}
+
+
+@keyframes animate {
+    0% {
+    transform:scaleX(0);
+    transform-origin: left;
+    }
+    50%
+    {
+      transform:scaleX(1);
+    transform-origin: left;
+    }
+    50.1%
+    {
+      transform:scaleX(1);
+    transform-origin: right;
+      
+    }
+    
+      
+    }
+
+    body {
+        background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a7f671b-9c0a-4520-9157-6f9da91f4ba5/d3bma9f-c721d84a-4acf-42f7-a160-931032c5b05f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMGE3ZjY3MWItOWMwYS00NTIwLTkxNTctNmY5ZGE5MWY0YmE1XC9kM2JtYTlmLWM3MjFkODRhLTRhY2YtNDJmNy1hMTYwLTkzMTAzMmM1YjA1Zi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.vzZGkEAtEKfpQoX3LBRTQAqOMIgllFO-vNXim0Jd05U);
+        opacity: 0.9;
+    }

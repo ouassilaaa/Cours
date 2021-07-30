@@ -1,0 +1,148 @@
+h1 {
+    color: #ffaf01; 
+    font: size 100em;;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+font-style: italic;
+text-align: center;
+border: crimson ridge 3px;
+border-radius: 10px 5px;
+text-shadow: 6px 6px 10px white;
+width: 300px;
+margin: auto; 
+padding: auto;
+
+}
+
+p { color: rgb(10, 10, 10);
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-shadow: 3px 3px 5px pink;
+    background-color: rgb(226, 222, 223);
+
+}
+
+
+p:hover{text-decoration: blueviolet underline;}
+/*
+fait par Ouassila
+*/
+
+.fin {color: maroon;}
+
+
+
+h1 em {color: rgb(24, 16, 145);
+    font-size: xx-large;
+    font-family: monospace;
+}
+
+a:visited{color: pink;}
+
+p em {color: blueviolet;}
+
+h2 + p{color: rgb(7, 2, 0);
+}
+
+table{border-collapse: collapse;
+}
+
+td,th{border: 1px solid blueviolet;}
+
+:required { color: #ffaf01;}
+
+@keyframes masuperanimation {
+0% { transform: translateX(0px);
+
+}
+50% { transform: translateX(150px);
+}
+
+100%{transform: translateX(150px);
+
+}
+
+}
+
+div {
+    margin: 100px;
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+}
+div:hover { animation: masuperanimation 2s;
+
+}
+
+#container { border: blueviolet 2px solid; 
+    background-color: coral;
+    width:  1000px;
+    height: 200px;
+    display: flex;
+align-items: stretch;
+
+}
+
+ #box2 {background-color: crimson;
+    order: 1;
+
+ }
+
+ #box1 {background-color: darkgoldenrod;
+    order: 2;
+
+ }
+ #box3 {background-color: darkgreen;
+    order: 3;
+    flex: auto;
+
+ }
+
+ 
+
+
+
+ .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: deepskyblue;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #1565C0;
+  }
+  
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+  
+  
